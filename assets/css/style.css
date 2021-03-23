@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .another{
     
     margin: 5px;
@@ -12,14 +15,12 @@
     margin-top: 30px;
 }
 .policy{
-    margin-top: 70px;
+    margin-top: 75px;
 }
 li{
     font-size: small;
 }
-#img-css{
-/* fill-opacity: initial .5; */
-}
+
 .app{
     font-weight: bold;
     font-family: sans-serif;
@@ -46,13 +47,47 @@ li{
     align-items: center;
 }
 .test-last{
-    text-align: center;
+    text-align: center !important;
 }
 .copyright{
-    margin-top: 15px;
-    padding: 15px 0;
+   
+    padding-top: 12px;
+    padding-bottom: 3px;
     background-color: #f1f2f4;
     font-size: 90%;
     align-items: center;
-    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.addition{
+    align-items: center;
+}
+.icon-text{
+    align-items: center
+}
+.size{
+    font-size: small;
+    margin-left: 5px;
+}
+.xtra{
+    font-size: 11px;
+    margin-left: 5px;
+}
+.aside{
+    margin-right: 5px;
+}
+.aside-1{
+    margin-right: 2px;
+    margin-left: -7px;
+}
+.new{
+    align-items: center;
+}
+
+
+html body ul {
+    margin: 0px 0px 0px 15px;
+    padding: 0;
+}
+.same{
+    margin-top: 15px;
 }
