@@ -17,3 +17,42 @@
 li{
     font-size: small;
 }
+#img-css{
+/* fill-opacity: initial .5; */
+}
+.app{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.item{
+    margin: 10px;
+}
+.inline{
+    
+    align-items: center;
+    
+}
+.move{
+    margin: 3px;
+}
+.p-text{
+    text-align: center;
+    font-size: small;
+}
+.div-text{
+    font-size: 95%;
+    word-spacing: 3px;
+    line-height: 1.7; 
+    align-items: center;
+}
+.test-last{
+    text-align: center;
+}
+.copyright{
+    margin-top: 15px;
+    padding: 15px 0;
+    background-color: #f1f2f4;
+    font-size: 90%;
+    align-items: center;
+    margin-bottom: 0px;
+}
