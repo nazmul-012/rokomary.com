@@ -169,22 +169,61 @@ p.active {
 .do-size{
     font-size: small;
 }
-.email-name{
-    border: none;
-    border-bottom: 2px solid #EAECED;
-    border-radius: 0;
-    padding-left: 0;
-    width: 78%;
-}
-.right-eye{
-    position: absolute;
-    right: 15px;
-    transform:translate(0,-50%);
-    top: 50%;
-    cursor: pointer;
-}
-.right-eye-enter{
-    font-size: 15px;
-    color: red;
-}
 
+.text-box{
+    width: 100%;
+    overflow: hidden;
+    font-size: 16px;
+    padding: 10px 0px;
+    margin: 30px 10px;
+    border-bottom: 2px solid #acafb0;
+
+}
+.envelope,.lock{
+    width: 26px;
+    text-align: center;
+    color: #acafb0;
+}
+.input-style{
+    border: none;
+    outline: none;
+    background: none;
+}
+::-webkit-input-placeholder{
+    color: #acafb0;
+}
+.div-border{
+    width: 100%;
+    overflow: hidden;
+    font-size: 16px;
+    padding: 10px 0px;
+    margin: 30px 10px;
+    border-bottom: 2px solid rgb(118, 182, 255);
+}
+.div-border-edit{
+    width: 100%;
+    overflow: hidden;
+    font-size: 16px;
+    padding: 10px 0px;
+    margin: 30px 10px;
+    border-bottom: 2px solid yellowgreen;
+}
+.div-border-edit-blur{
+    width: 100%;
+    overflow: hidden;
+    font-size: 16px;
+    padding: 10px 0px;
+    margin: 30px 10px;
+    border-bottom: 2px solid red;
+}
+#eye{
+    position: absolute;
+    right: 30px;
+    transform: translate(0,-50%);
+    top: 70%;
+    cursor: pointer;
+    width: 26px;
+}
+.far{
+    color: #acafb0;
+}
